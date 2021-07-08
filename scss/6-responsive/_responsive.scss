@@ -168,6 +168,12 @@
     }
 }
 @media(max-width:768px){
+    .branch-sec{
+        .cart-card{
+            min-width: 100%;
+            max-width: 100%;
+        }
+    }
     .product-view{
         position: static;
     }
