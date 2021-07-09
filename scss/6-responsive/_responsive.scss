@@ -12,6 +12,9 @@
     }
 }
 @media(max-width:1200px){
+    .branch-product__rsidebar {
+        width: 325px;
+    }
     .product-view{
         width: 50%;
         padding: 0;
@@ -149,7 +152,6 @@
             }
         }
     }
-     
     .product-cartoffer {
         width: 50%;
     }
@@ -168,6 +170,9 @@
     }
 }
 @media(max-width:768px){
+    .branch-product__rsidebar {
+        display: none;
+    }
     .branch-sec{
         .cart-card{
             min-width: 100%;
