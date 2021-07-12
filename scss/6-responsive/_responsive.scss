@@ -56,10 +56,13 @@
     }
 }
 @media(max-width:992px){
+    .location-search{
+        justify-content: center;
+    }
     .shop-locator{
         position: absolute;
         width: 480px !important;
-        height: 238px;
+        height: 200px;
         top: 50%;
         left: 50%;
         transform: translate(-50%,-50%);
@@ -76,6 +79,8 @@
         }
         .banner-details{
             width: 88%;
+            justify-content: center;
+            text-align: center;
         }
     }
     .top-menu {
@@ -168,8 +173,24 @@
     .product-btn{
         width: 100%;
     }
+    div.branchsearch{
+        width: 90%;
+        margin: 0px auto !important;
+        margin-top: 20px !important;
+    }
 }
 @media(max-width:768px){
+    .branchsearch{
+        height: 35px;
+    }
+    .branchsearch-box{
+        button{
+            width: fit-content;
+        }
+    }
+    .location-search{
+        max-width: fit-content;
+    }
     .branch-product__rsidebar {
         display: none;
     }
@@ -227,12 +248,29 @@
     }
     .mobile-shop-locator{
         display: flex;
+        
+        .banner-details{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .title{
+            width: 100%;
+        }
+        .sub-title{
+            max-width: 375px;
+            display: block;
+        }
     }
     .price-width{
         width: fit-content;
     }
 }
 @media(max-width:640px){
+    .banner {
+        position: relative;
+        min-height: 25vh;
+    }
     .multi-slider{
         .card{
             width: 100% !important;
@@ -271,6 +309,10 @@
     }
 }
 @media(max-width:500px){
+    .banner {
+        position: relative;
+        min-height: 200px;
+    }
     .wishlist-item{
         .custom-detail{
             padding-left: 15px;
